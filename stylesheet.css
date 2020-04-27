@@ -177,13 +177,10 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
-}
-
 footer p {
   color: #b3aeb5;
-  font-size: 12px;
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 footer {
@@ -193,4 +190,5 @@ footer {
 .menu-icon {
   color: #fff;
   display: none;
+  float: right;
 }
