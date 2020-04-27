@@ -17,6 +17,89 @@ a {
   margin: 0 auto;
 }
 
+h1 {color: #111111;}
+h1 {text-align: center; font-size: 30px;}
+h2 {text-align: center; font-size: 20px;}
+
+.arrow_image {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 100px;
+  height: 100px;
+  z-index: 200;
+
+  -webkit-transition: -webkit-transform .1s; /* Safari */
+  transition: transform .1s;
+
+  -webkit-transform: scale(1.0) rotate(-90deg);
+  -ms-transform: scale(1.0) rotate(-90deg);
+  transform: scale(1.0) rotate(-90deg);
+}
+
+
+
+.header_text { padding-top: 80px; min-width: 100%; }
+
+
+.menu_section {
+position: fixed;
+z-index: 100;
+top: 0px;
+height: 50px;
+width: 100%;
+padding-right: 50px; 
+padding-left: 50px;
+background-color: white;
+}
+
+/*FLEX*/
+.flex_container {display: flex; flex-wrap: wrap; align-items: center;}
+.flex_header_container {justify-content: center;}
+.flex_header_item {
+  min-width: 350px;
+  max-width: 600px;
+  z-index: 50;
+}
+
+  .flex_feature_item:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+.flex_center {justify-content: center;}
+
+.second_section_container {}
+  .feature {
+    
+    float: left;
+    width: 50px;
+    margin: 5px;
+    
+    min-width: 250px;
+    max-width: 300px;
+    height: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+
+    color: #111111;
+    filter: grayscale(100%);
+
+    -webkit-box-shadow: 9px 10px 39px -2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 9px 10px 39px -2px rgba(0,0,0,0.3);
+    box-shadow: 9px 10px 39px -2px rgba(0,0,0,0.3);
+  }
+  .feature h2 {line-height: 0;}
+  .feature p {text-align: center; margin: auto; max-width: 200px;}
+  .feature .feature_image {width: 200px; height: 200px; margin: auto; border-radius: 200px; background-size: cover;}
+  .feature1 .feature_image {background-image: url(./images/baru.jpg);}
+  .feature2 .feature_image {background-image: url(./images/surf02.jpg);}
+  .feature3 .feature_image {background-image: url(./images/surf03.jpg);}
+  .feature4 .feature_image {background-image: url(./images/surf04.jpg);}
+  .feature5 .feature_image {background-image: url(./images/surf05.jpg);}
+
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(bg-image.jpg);
