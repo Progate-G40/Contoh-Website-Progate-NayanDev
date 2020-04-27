@@ -96,7 +96,7 @@ background-color: white;
   .feature .feature_image {width: 200px; height: 200px; margin: auto; border-radius: 200px; background-size: cover;}
   .feature1 .feature_image {background-image: url(./img/nvamalia.jpg);}
   .feature2 .feature_image {background-image: url(./img/farid.jpg);}
-  .feature3 .feature_image {background-image: url(./img/surf03.jpg);}
+  .feature3 .feature_image {background-image: url(./img/nayan.jpg);}
   .feature4 .feature_image {background-image: url(./img/surf04.jpg);}
   .feature5 .feature_image {background-image: url(./img/surf05.jpg);}
 
@@ -271,7 +271,6 @@ footer {
 .menu-icon {
   color: #fff;
   display: none;
-  float: right;
 }
 
 .menu-active {
