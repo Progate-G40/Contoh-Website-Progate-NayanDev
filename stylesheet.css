@@ -94,11 +94,11 @@ background-color: white;
   .feature h2 {line-height: 0;}
   .feature p {text-align: center; margin: auto; max-width: 200px;}
   .feature .feature_image {width: 200px; height: 200px; margin: auto; border-radius: 200px; background-size: cover;}
-  .feature1 .feature_image {background-image: url(./images/baru.jpg);}
-  .feature2 .feature_image {background-image: url(./images/surf02.jpg);}
-  .feature3 .feature_image {background-image: url(./images/surf03.jpg);}
-  .feature4 .feature_image {background-image: url(./images/surf04.jpg);}
-  .feature5 .feature_image {background-image: url(./images/surf05.jpg);}
+  .feature1 .feature_image {background-image: url(./img/nvamalia.jpg);}
+  .feature2 .feature_image {background-image: url(./img/farid.jpg);}
+  .feature3 .feature_image {background-image: url(./img/surf03.jpg);}
+  .feature4 .feature_image {background-image: url(./img/surf04.jpg);}
+  .feature5 .feature_image {background-image: url(./img/surf05.jpg);}
 
 .top-wrapper {
   padding: 180px 0 100px 0;
