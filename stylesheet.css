@@ -285,4 +285,5 @@ footer {
 
 .thx {
   float: left;
-  height: 75px;
+  height: 50px;
+  padding: 0 25px;
