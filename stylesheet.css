@@ -73,7 +73,6 @@ a {
 
 .fa {
   margin-right: 5px;
-  display: none;
 }
 
 header {
@@ -101,6 +100,8 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.5);
+  padding: 0 25px;
+  line-height: 65px;
 }
 
 .header-right a {
@@ -191,6 +192,5 @@ footer {
 
 .menu-icon {
   color: #fff;
-  float: right;
-  display: none;
+  display: block;
 }
